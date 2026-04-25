@@ -38,8 +38,10 @@ for k in range(5):
 for k in range(1, 8):
     print(k+1)
 
-for k in range(1, 12, 2):
-    print(k)    
-
+for k in range(1, 12, 2):    
+    print(k) 
+for i in color:
+    print(i)
 for i in range(2, 45, 1):
     print(i + 4)
+    

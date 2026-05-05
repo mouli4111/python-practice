@@ -30,3 +30,18 @@ animal = ("cat", "dog", "camel", "horse", "donkey", "cow", "bat", "pig", "goat")
 print(animal[::8])
 print(animal[1:4:8])
 print(animal[-1:-2:-9])
+
+T=tuple(input("Enter vlaue"))
+print(T) 
+
+T =(40,50,60,80,100)
+n=len(T)
+for i in range(n):
+    print(T[i])
+
+T=(40,50,60,80,100)
+print(min(T))
+print(max(T))
+print(T.index(80))
+
+            
